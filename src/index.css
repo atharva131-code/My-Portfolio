@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Set base background & font — Tailwind can't set html-level defaults easily */
+body {
+  background-color: black;
+  color: white;
+  font-family: "DM Sans", "Segoe UI", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
